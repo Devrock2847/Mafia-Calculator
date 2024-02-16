@@ -6,6 +6,7 @@
 int main() {
     double players = 10.0;
     double mafia = 2.0;
+
     double percentage = mafia / (sqrt(players));
     std::cout << percentage << std::endl;
 }
