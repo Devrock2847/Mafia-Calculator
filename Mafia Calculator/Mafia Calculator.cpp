@@ -1,5 +1,5 @@
-// Mafia Calculator.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//This is a calculator created for the social deduction game Mafia
+//It calculates the percentage chance of the Mafia players winning the game
 
 #include <iostream>
 #include <cmath>
