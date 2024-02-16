@@ -3,7 +3,6 @@
 #include <iostream>
 #include <cmath>
 
-
 int main() {
     //Update this with player and mafia numbers
     double players = 10.0;
