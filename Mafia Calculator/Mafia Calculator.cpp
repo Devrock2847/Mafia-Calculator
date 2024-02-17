@@ -8,6 +8,6 @@ int main() {
     double players = 10.0;
     double mafia = 2.0;
 
-    double percentage = mafia / (sqrt(players));
-    std::cout << "Mafia has " << percentage  << "% chance of victory" << std::endl;
+    double percentage = (mafia / (sqrt(players))) * 100;
+    std::cout << "Mafia has " << (int)percentage  << "% chance of victory" << std::endl;
 }
